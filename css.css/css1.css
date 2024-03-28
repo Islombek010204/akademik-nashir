@@ -1,3 +1,7 @@
+:root {
+	--orenge-color: #ff7500;
+}
+
 html {
 	box-sizing: border-box;
 	height: 100%;
@@ -5,7 +9,7 @@ html {
 }
 
 *:focus {
-	outline: 2px dotted #ff7500;
+	outline: 2px dotted var(--orenge-color);
 	outline-offset: 3px;
 }
 
@@ -30,7 +34,7 @@ body {
 .btn {
 	border: none;
 	padding: 12px 24px;
-	background-color: #ff7500;
+	background-color: var(--orenge-color);
 	color: #fff;
 	border-radius: 4px;
 	cursor: pointer;
@@ -52,7 +56,7 @@ body {
 }
 
 .site-header {
-	border-top: 5px solid #ff7500;
+	border-top: 5px solid var(--orenge-color);
 }
 
 .site-header__container {
@@ -100,7 +104,7 @@ body {
 }
 
 .site-list__items a:hover {
-	color: #ff7500;
+	color: var(--orenge-color);
 }
 
 .site-list__items a:active {
@@ -108,7 +112,7 @@ body {
 }
 
 .site-list__items:active {
-	border-bottom: 3px solid #ff7500;
+	border-bottom: 3px solid var(--orenge-color);
 }
 
 .site-main {
@@ -138,7 +142,7 @@ body {
 	display: inline-block;
 	width: 80px;
 	height: 3px;
-	background-color: #ff7500;
+	background-color: var(--orenge-color);
 	margin-bottom: 40px;
 }
 .hero__title {
@@ -170,7 +174,7 @@ body {
 	display: inline-block;
 	width: 80px;
 	height: 3px;
-	background-color: #ff7500;
+	background-color: var(--orenge-color);
 	margin-bottom: 24px;
 }
 
@@ -264,7 +268,7 @@ body {
 }
 
 .promo__span {
-	color: #ff7500;
+	color: var(--orenge-color);
 	font-weight: 700;
 }
 
@@ -308,7 +312,7 @@ body {
 }
 
 .site-footer__link svg:hover {
-	color: #ff7500;
+	color: var(--orenge-color);
 }
 
 .site-footer__link svg:active {
@@ -344,7 +348,7 @@ body {
 	transition: all 0.4s ease;
 }
 .site-footer-bootm__link:hover {
-	color: #ff7500;
+	color: var(--orenge-color);
 }
 .site-footer-bootm__link:active {
 	opacity: 0.6;
